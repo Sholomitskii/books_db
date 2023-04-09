@@ -4,7 +4,7 @@ from sqlalchemy.orm import declarative_base, relationship, sessionmaker
 from models import create_tables, Publisher, Book, Sale, Shop, Stock
 
 login = 'postgres'
-password = '2209fynjy'
+password = ''
 db_name = 'books_db'
 
 DSN = f"postgresql://{login}:{password}@localhost:5432/{db_name}"
